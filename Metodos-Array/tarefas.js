@@ -89,3 +89,9 @@ console.table(filtrada);
 let ordenada = tarefas.sort()
 console.log(`Depois do sort:`);
 console.table(ordenada);
+
+//Invertendo a Ordem das Tarefas
+
+let tarefasInvertidas = tarefas.reverse();
+console.log(`Depois do reverse`);
+console.table(tarefasInvertidas);
