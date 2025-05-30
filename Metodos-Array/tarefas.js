@@ -44,4 +44,13 @@ console.log(`A lista inclui Ir à academia? ${tarefas.includes("Ir à academia")
 
 //Transformando a Lista em String 
 
-console.log(`Lista de tarefas como string: ${tarefas.join(', ')}`);
+console.log(`Lista de tarefas como string: ${tarefas.join(', ')}
+`);
+
+//Extraindo uma parte da lista
+
+let elementosRemovidos = tarefas.splice(2,2);
+
+console.log("Depois do splice:");
+console.table(tarefas);
+console.log(`Tarefas removidas: ${elementosRemovidos.join(',')}`);
