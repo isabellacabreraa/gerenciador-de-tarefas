@@ -76,3 +76,10 @@ console.table(tarefasCombinadas);
 let transformandoTarefas = tarefas.map(tarefa=>"Fazer: " + tarefa);
 console.log("Depois do map");
 console.table(transformandoTarefas);
+
+//Filtrando Tarefas
+
+let filtrada = tarefas.filter(tarefas => tarefas.length <15);
+
+console.log("Depois do filter");
+console.table(filtrada);
