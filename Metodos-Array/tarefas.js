@@ -7,3 +7,11 @@ console.log(`Antes do push: ${tarefas}`);
 tarefas.push("Varrer a casa","Jogar o lixo fora");
 
 console.log(`Depois do push: ${tarefas}`);
+
+//Removendo a última tarefa do array
+
+let tarefaRemovida = tarefas.pop();
+
+
+console.log(`Depois do pop: ${tarefas}`);
+console.log(`Tarefa removida: ${tarefaRemovida}`);
