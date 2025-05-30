@@ -27,3 +27,13 @@ tarefas.unshift("Lavar o cabelo");
 console.log(`Depois do unshift: ${tarefas}
     `);
 
+//Removendo a primeira tarefa do array 
+
+let tarefaRemovida01= tarefas.shift();
+
+console.log(`Depois do shift: ${tarefas}
+    `);
+
+console.log(`Tarefa removida: ${tarefaRemovida01}
+    `);
+
