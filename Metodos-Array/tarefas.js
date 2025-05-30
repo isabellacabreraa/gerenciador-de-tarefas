@@ -54,3 +54,11 @@ let elementosRemovidos = tarefas.splice(2,2);
 console.log("Depois do splice:");
 console.table(tarefas);
 console.log(`Tarefas removidas: ${elementosRemovidos.join(',')}`);
+
+//Alterando lista 
+
+console.log("Antes do splice:");
+console.table(tarefas);
+
+let elementoRemovido = tarefas.splice(3,0,"Fazer almoço");
+console.table(tarefas);
