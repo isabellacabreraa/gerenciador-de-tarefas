@@ -70,3 +70,9 @@ tarefasCombinadas = tarefas.concat(tarefasAdicionais);
 console.log("Depois do concat");
 
 console.table(tarefasCombinadas);
+
+//Transformando as Tarefas 
+
+let transformandoTarefas = tarefas.map(tarefa=>"Fazer: " + tarefa);
+console.log("Depois do map");
+console.table(transformandoTarefas);
