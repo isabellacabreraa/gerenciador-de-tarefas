@@ -41,3 +41,7 @@ console.log(`Tarefa removida: ${tarefaRemovida01}
 
 console.log(`A lista inclui Ir à academia? ${tarefas.includes("Ir à academia")}
 `);
+
+//Transformando a Lista em String 
+
+console.log(`Lista de tarefas como string: ${tarefas.join(', ')}`);
