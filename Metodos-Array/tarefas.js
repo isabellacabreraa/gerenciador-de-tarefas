@@ -83,3 +83,9 @@ let filtrada = tarefas.filter(tarefas => tarefas.length <15);
 
 console.log("Depois do filter");
 console.table(filtrada);
+
+//Ordenando as Tarefas
+
+let ordenada = tarefas.sort()
+console.log(`Depois do sort:`);
+console.table(ordenada);
