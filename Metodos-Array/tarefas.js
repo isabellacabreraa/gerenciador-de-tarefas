@@ -62,3 +62,11 @@ console.table(tarefas);
 
 let elementoRemovido = tarefas.splice(3,0,"Fazer almoço");
 console.table(tarefas);
+
+//Concateando tarefas
+
+let tarefasAdicionais = ["Assistir filme com o meu irmão","Conversar com a minha mãe","Dar risada com o meu pai"];
+tarefasCombinadas = tarefas.concat(tarefasAdicionais);
+console.log("Depois do concat");
+
+console.table(tarefasCombinadas);
